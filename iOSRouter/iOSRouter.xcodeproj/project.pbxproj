@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D5E166F97CCC2152608FF32 /* libPods-iOSRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBEE007B0C65D274C43D443 /* libPods-iOSRouter.a */; };
+		67EE02C0233DE53300F1CB21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02BF233DE53300F1CB21 /* AppDelegate.m */; };
+		67EE02C3233DE53300F1CB21 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02C2233DE53300F1CB21 /* SceneDelegate.m */; };
+		67EE02C6233DE53300F1CB21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02C5233DE53300F1CB21 /* ViewController.m */; };
+		67EE02C9233DE53300F1CB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EE02C7233DE53300F1CB21 /* Main.storyboard */; };
+		67EE02CB233DE54F00F1CB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EE02CA233DE54F00F1CB21 /* Assets.xcassets */; };
+		67EE02CE233DE54F00F1CB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EE02CC233DE54F00F1CB21 /* LaunchScreen.storyboard */; };
+		67EE02D1233DE54F00F1CB21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02D0233DE54F00F1CB21 /* main.m */; };
+		67EE02DC233DE58D00F1CB21 /* AppRoutorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02DA233DE58D00F1CB21 /* AppRoutorConfig.m */; };
+		67EE02DF233DE60400F1CB21 /* RouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02DE233DE60400F1CB21 /* RouterViewController.m */; };
+		67EE02E8233DE62100F1CB21 /* GCWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02E2233DE62100F1CB21 /* GCWKWebViewController.m */; };
+		67EE02E9233DE62100F1CB21 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02E3233DE62100F1CB21 /* WebViewController.m */; };
+		67EE02F3233DE63300F1CB21 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02EB233DE63200F1CB21 /* BaseWebViewController.m */; };
+		67EE02F4233DE63300F1CB21 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02EC233DE63200F1CB21 /* State.m */; };
+		67EE02F5233DE63300F1CB21 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02ED233DE63200F1CB21 /* Router.m */; };
+		67EE02F6233DE63300F1CB21 /* DefaultWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EE02F0233DE63200F1CB21 /* DefaultWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EBEE007B0C65D274C43D443 /* libPods-iOSRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B258537EAE7F9AAA2558A7E /* Pods-iOSRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRouter.release.xcconfig"; path = "Target Support Files/Pods-iOSRouter/Pods-iOSRouter.release.xcconfig"; sourceTree = "<group>"; };
+		529FA3AF3F80A40997DBB8CB /* Pods-iOSRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRouter.debug.xcconfig"; path = "Target Support Files/Pods-iOSRouter/Pods-iOSRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		67EE02BB233DE53300F1CB21 /* iOSRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EE02BE233DE53300F1CB21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67EE02BF233DE53300F1CB21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67EE02C1233DE53300F1CB21 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		67EE02C2233DE53300F1CB21 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		67EE02C4233DE53300F1CB21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67EE02C5233DE53300F1CB21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67EE02C8233DE53300F1CB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67EE02CA233DE54F00F1CB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67EE02CD233DE54F00F1CB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67EE02CF233DE54F00F1CB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EE02D0233DE54F00F1CB21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67EE02D8233DE58D00F1CB21 /* AppRoutorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRoutorConfig.h; sourceTree = "<group>"; };
+		67EE02D9233DE58D00F1CB21 /* AppRoutorURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRoutorURL.h; sourceTree = "<group>"; };
+		67EE02DA233DE58D00F1CB21 /* AppRoutorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRoutorConfig.m; sourceTree = "<group>"; };
+		67EE02DD233DE60400F1CB21 /* RouterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterViewController.h; sourceTree = "<group>"; };
+		67EE02DE233DE60400F1CB21 /* RouterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterViewController.m; sourceTree = "<group>"; };
+		67EE02E2233DE62100F1CB21 /* GCWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCWKWebViewController.m; sourceTree = "<group>"; };
+		67EE02E3233DE62100F1CB21 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		67EE02E5233DE62100F1CB21 /* GCWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCWKWebViewController.h; sourceTree = "<group>"; };
+		67EE02E6233DE62100F1CB21 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		67EE02EB233DE63200F1CB21 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		67EE02EC233DE63200F1CB21 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		67EE02ED233DE63200F1CB21 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		67EE02EE233DE63200F1CB21 /* DefaultWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultWebViewController.h; sourceTree = "<group>"; };
+		67EE02EF233DE63200F1CB21 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		67EE02F0233DE63200F1CB21 /* DefaultWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultWebViewController.m; sourceTree = "<group>"; };
+		67EE02F1233DE63200F1CB21 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		67EE02F2233DE63200F1CB21 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		67EE02F7233DE7AC00F1CB21 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67EE02B8233DE53300F1CB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5E166F97CCC2152608FF32 /* libPods-iOSRouter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D58A44849247820E8626126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EBEE007B0C65D274C43D443 /* libPods-iOSRouter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		425341DC64D3A07E57CE73F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				529FA3AF3F80A40997DBB8CB /* Pods-iOSRouter.debug.xcconfig */,
+				4B258537EAE7F9AAA2558A7E /* Pods-iOSRouter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67EE02B2233DE53300F1CB21 = {
+			isa = PBXGroup;
+			children = (
+				67EE02BD233DE53300F1CB21 /* iOSRouter */,
+				67EE02BC233DE53300F1CB21 /* Products */,
+				425341DC64D3A07E57CE73F6 /* Pods */,
+				0D58A44849247820E8626126 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67EE02BC233DE53300F1CB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EE02BB233DE53300F1CB21 /* iOSRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67EE02BD233DE53300F1CB21 /* iOSRouter */ = {
+			isa = PBXGroup;
+			children = (
+				67EE02BE233DE53300F1CB21 /* AppDelegate.h */,
+				67EE02BF233DE53300F1CB21 /* AppDelegate.m */,
+				67EE02C1233DE53300F1CB21 /* SceneDelegate.h */,
+				67EE02C2233DE53300F1CB21 /* SceneDelegate.m */,
+				67EE02C4233DE53300F1CB21 /* ViewController.h */,
+				67EE02C5233DE53300F1CB21 /* ViewController.m */,
+				67EE02DD233DE60400F1CB21 /* RouterViewController.h */,
+				67EE02DE233DE60400F1CB21 /* RouterViewController.m */,
+				67EE02E0233DE62100F1CB21 /* GKWKWebView */,
+				67EE02D7233DE58D00F1CB21 /* Common */,
+				67EE02EA233DE63200F1CB21 /* Router */,
+				67EE02C7233DE53300F1CB21 /* Main.storyboard */,
+				67EE02CA233DE54F00F1CB21 /* Assets.xcassets */,
+				67EE02CC233DE54F00F1CB21 /* LaunchScreen.storyboard */,
+				67EE02F7233DE7AC00F1CB21 /* PrefixHeader.pch */,
+				67EE02CF233DE54F00F1CB21 /* Info.plist */,
+				67EE02D0233DE54F00F1CB21 /* main.m */,
+			);
+			path = iOSRouter;
+			sourceTree = "<group>";
+		};
+		67EE02D7233DE58D00F1CB21 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				67EE02D8233DE58D00F1CB21 /* AppRoutorConfig.h */,
+				67EE02DA233DE58D00F1CB21 /* AppRoutorConfig.m */,
+				67EE02D9233DE58D00F1CB21 /* AppRoutorURL.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		67EE02E0233DE62100F1CB21 /* GKWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				67EE02E5233DE62100F1CB21 /* GCWKWebViewController.h */,
+				67EE02E2233DE62100F1CB21 /* GCWKWebViewController.m */,
+				67EE02E6233DE62100F1CB21 /* WebViewController.h */,
+				67EE02E3233DE62100F1CB21 /* WebViewController.m */,
+			);
+			path = GKWKWebView;
+			sourceTree = "<group>";
+		};
+		67EE02EA233DE63200F1CB21 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				67EE02F1233DE63200F1CB21 /* Router.h */,
+				67EE02ED233DE63200F1CB21 /* Router.m */,
+				67EE02F2233DE63200F1CB21 /* State.h */,
+				67EE02EC233DE63200F1CB21 /* State.m */,
+				67EE02EE233DE63200F1CB21 /* DefaultWebViewController.h */,
+				67EE02F0233DE63200F1CB21 /* DefaultWebViewController.m */,
+				67EE02EF233DE63200F1CB21 /* BaseWebViewController.h */,
+				67EE02EB233DE63200F1CB21 /* BaseWebViewController.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67EE02BA233DE53300F1CB21 /* iOSRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EE02D4233DE54F00F1CB21 /* Build configuration list for PBXNativeTarget "iOSRouter" */;
+			buildPhases = (
+				99DB472E516D585070CD6568 /* [CP] Check Pods Manifest.lock */,
+				67EE02B7233DE53300F1CB21 /* Sources */,
+				67EE02B8233DE53300F1CB21 /* Frameworks */,
+				67EE02B9233DE53300F1CB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSRouter;
+			productName = iOSRouter;
+			productReference = 67EE02BB233DE53300F1CB21 /* iOSRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67EE02B3233DE53300F1CB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = hzhy001;
+				TargetAttributes = {
+					67EE02BA233DE53300F1CB21 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 67EE02B6233DE53300F1CB21 /* Build configuration list for PBXProject "iOSRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67EE02B2233DE53300F1CB21;
+			productRefGroup = 67EE02BC233DE53300F1CB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67EE02BA233DE53300F1CB21 /* iOSRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67EE02B9233DE53300F1CB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE02CE233DE54F00F1CB21 /* LaunchScreen.storyboard in Resources */,
+				67EE02CB233DE54F00F1CB21 /* Assets.xcassets in Resources */,
+				67EE02C9233DE53300F1CB21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99DB472E516D585070CD6568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSRouter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67EE02B7233DE53300F1CB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE02DC233DE58D00F1CB21 /* AppRoutorConfig.m in Sources */,
+				67EE02E9233DE62100F1CB21 /* WebViewController.m in Sources */,
+				67EE02C6233DE53300F1CB21 /* ViewController.m in Sources */,
+				67EE02F4233DE63300F1CB21 /* State.m in Sources */,
+				67EE02F5233DE63300F1CB21 /* Router.m in Sources */,
+				67EE02C0233DE53300F1CB21 /* AppDelegate.m in Sources */,
+				67EE02E8233DE62100F1CB21 /* GCWKWebViewController.m in Sources */,
+				67EE02F6233DE63300F1CB21 /* DefaultWebViewController.m in Sources */,
+				67EE02D1233DE54F00F1CB21 /* main.m in Sources */,
+				67EE02C3233DE53300F1CB21 /* SceneDelegate.m in Sources */,
+				67EE02F3233DE63300F1CB21 /* BaseWebViewController.m in Sources */,
+				67EE02DF233DE60400F1CB21 /* RouterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67EE02C7233DE53300F1CB21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EE02C8233DE53300F1CB21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67EE02CC233DE54F00F1CB21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EE02CD233DE54F00F1CB21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67EE02D2233DE54F00F1CB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67EE02D3233DE54F00F1CB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67EE02D5233DE54F00F1CB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529FA3AF3F80A40997DBB8CB /* Pods-iOSRouter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOSRouter/PrefixHeader.pch;
+				INFOPLIST_FILE = iOSRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.iOSRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67EE02D6233DE54F00F1CB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B258537EAE7F9AAA2558A7E /* Pods-iOSRouter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOSRouter/PrefixHeader.pch;
+				INFOPLIST_FILE = iOSRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.iOSRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67EE02B6233DE53300F1CB21 /* Build configuration list for PBXProject "iOSRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE02D2233DE54F00F1CB21 /* Debug */,
+				67EE02D3233DE54F00F1CB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EE02D4233DE54F00F1CB21 /* Build configuration list for PBXNativeTarget "iOSRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE02D5233DE54F00F1CB21 /* Debug */,
+				67EE02D6233DE54F00F1CB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67EE02B3233DE53300F1CB21 /* Project object */;
+}

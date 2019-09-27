@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03083060D2568A94266D974BE21A0B89 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 143B9AE689542D9927E99E9961899C42 /* XACrystallization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05B92704C665F95AAB08FCA1CF826E06 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87FF5F5EEDDE4470C738F017CAB8CFA3 /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		104E7A14E68C440606DFEF3B1D8475AB /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 455910762DA7152E2177E8DA21D772B4 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B36AF82868769D37B584A5C90F6A91A /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01094BB87A7094288A0B2CCF1067B15A /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E3CEB75DA4AE2FC0C607DECF12A0E32 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = D11577047E3F9BA0EEFD9F9B31D3BDB3 /* XAspect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C7F415930E368796C6E3982BF62AD14 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEA8E0DCB0A380919C242CD33101F39 /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		845B69EFA08F9CC85BA87708D9104063 /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DA1DAD9A442CF19221A56E6F48EE29 /* XAspect-dummy.m */; };
+		AA2D85F95DCBBC9BCD3BEE81936D6AD4 /* Pods-iOSRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 020994CCE6779265DA958FD471C3CD0F /* Pods-iOSRouter-dummy.m */; };
+		CAEC77EC5BAA28E714B767FC1E67B899 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 127E0B3978BFE755CE02D7683474C26C /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA062471FA442E0CEB947C3F725B6946 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF6F28DBFDCB867B154C1E540D1C4A4 /* XAFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E04B4529CEAF02010F0AFB130464583C /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 83503553F99DDD60850B80153E61E151 /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB123AC22DD16329373A0F0DEB7737B0 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9844869B908B8B7B5F556EDA29783D09 /* XACExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD5A036C5C2703244FB1B0C8E1E5CC6A /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C871434F6D4F905A16FB9E44AE011487 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0D53A0155DE1A69858E7EDA65296F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BB640F282FCB99A9C42960B7F10C6E;
+			remoteInfo = XAspect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01094BB87A7094288A0B2CCF1067B15A /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		020994CCE6779265DA958FD471C3CD0F /* Pods-iOSRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSRouter-dummy.m"; sourceTree = "<group>"; };
+		0AF6F28DBFDCB867B154C1E540D1C4A4 /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
+		127E0B3978BFE755CE02D7683474C26C /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
+		143B9AE689542D9927E99E9961899C42 /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
+		2658EDB7F574FA15886307DBA6F41D15 /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXAspect.a; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D4BC8D0A305224686774F7A4706250 /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
+		43DA1DAD9A442CF19221A56E6F48EE29 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
+		455910762DA7152E2177E8DA21D772B4 /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
+		47BB7F5F2D7417066948E681785869D9 /* Pods-iOSRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSRouter.release.xcconfig"; sourceTree = "<group>"; };
+		83503553F99DDD60850B80153E61E151 /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
+		87FF5F5EEDDE4470C738F017CAB8CFA3 /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
+		8DEA8E0DCB0A380919C242CD33101F39 /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
+		9844869B908B8B7B5F556EDA29783D09 /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
+		9A56F5E4EACC7C031CCDFD404B25DA1B /* Pods-iOSRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CCE5AFE0A7E369CAA199DA3508110B3 /* XAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XAspect-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB31A92DE91CBFF795D01F29604A9E1 /* libPods-iOSRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSRouter.a"; path = "libPods-iOSRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C871434F6D4F905A16FB9E44AE011487 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
+		D11577047E3F9BA0EEFD9F9B31D3BDB3 /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
+		E8A8783FE115087DEF718A724B4AC27C /* Pods-iOSRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSRouter-acknowledgements.plist"; sourceTree = "<group>"; };
+		F499F956312A6EA8CEBF71E9136A9F82 /* Pods-iOSRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSRouter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09272A47B422C5D5F6EB68ABD3D0F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B8C70BE1701E74414B7FC58C27BB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AFEEC81F3FE70E9A03257696ED1304 /* XAspect */ = {
+			isa = PBXGroup;
+			children = (
+				D11577047E3F9BA0EEFD9F9B31D3BDB3 /* XAspect.h */,
+				567FAE53C843D958493951F7D3166E68 /* Core */,
+				88AA2979892D504B5F11E0EA82F577FF /* Macros */,
+				FF49C234A1B970D5A96E83077B032F09 /* Support Files */,
+			);
+			name = XAspect;
+			path = XAspect;
+			sourceTree = "<group>";
+		};
+		0C5BB6D254079DB46730822390AF7E17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF573B374B95E66EE0F23CDE9A2A754C /* Pods-iOSRouter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		567FAE53C843D958493951F7D3166E68 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				83503553F99DDD60850B80153E61E151 /* XACExtensions.c */,
+				9844869B908B8B7B5F556EDA29783D09 /* XACExtensions.h */,
+				87FF5F5EEDDE4470C738F017CAB8CFA3 /* XACrystallization.cpp */,
+				143B9AE689542D9927E99E9961899C42 /* XACrystallization.h */,
+				01094BB87A7094288A0B2CCF1067B15A /* XAWeaveHandler.cpp */,
+				8DEA8E0DCB0A380919C242CD33101F39 /* XAWeaveHandler.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5765C2F06DB2E5E01F5B982EBF4C7BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB31A92DE91CBFF795D01F29604A9E1 /* libPods-iOSRouter.a */,
+				2658EDB7F574FA15886307DBA6F41D15 /* libXAspect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AA2979892D504B5F11E0EA82F577FF /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				C871434F6D4F905A16FB9E44AE011487 /* XADebugMacros.h */,
+				127E0B3978BFE755CE02D7683474C26C /* XAExtObjcMetamacros.h */,
+				0AF6F28DBFDCB867B154C1E540D1C4A4 /* XAFoundation.h */,
+				455910762DA7152E2177E8DA21D772B4 /* XAObjcMetaprogramming.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F82709A3AA9ABCD6BCCEE46A779C3DE9 /* Pods */,
+				5765C2F06DB2E5E01F5B982EBF4C7BDE /* Products */,
+				0C5BB6D254079DB46730822390AF7E17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF573B374B95E66EE0F23CDE9A2A754C /* Pods-iOSRouter */ = {
+			isa = PBXGroup;
+			children = (
+				9A56F5E4EACC7C031CCDFD404B25DA1B /* Pods-iOSRouter-acknowledgements.markdown */,
+				E8A8783FE115087DEF718A724B4AC27C /* Pods-iOSRouter-acknowledgements.plist */,
+				020994CCE6779265DA958FD471C3CD0F /* Pods-iOSRouter-dummy.m */,
+				F499F956312A6EA8CEBF71E9136A9F82 /* Pods-iOSRouter.debug.xcconfig */,
+				47BB7F5F2D7417066948E681785869D9 /* Pods-iOSRouter.release.xcconfig */,
+			);
+			name = "Pods-iOSRouter";
+			path = "Target Support Files/Pods-iOSRouter";
+			sourceTree = "<group>";
+		};
+		F82709A3AA9ABCD6BCCEE46A779C3DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09AFEEC81F3FE70E9A03257696ED1304 /* XAspect */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF49C234A1B970D5A96E83077B032F09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D4BC8D0A305224686774F7A4706250 /* XAspect.xcconfig */,
+				43DA1DAD9A442CF19221A56E6F48EE29 /* XAspect-dummy.m */,
+				9CCE5AFE0A7E369CAA199DA3508110B3 /* XAspect-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XAspect";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		351790E7CE3766FB0692DB62650C6D75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F3752136DF63ACF1D6948D5ACF5C44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB123AC22DD16329373A0F0DEB7737B0 /* XACExtensions.h in Headers */,
+				03083060D2568A94266D974BE21A0B89 /* XACrystallization.h in Headers */,
+				FD5A036C5C2703244FB1B0C8E1E5CC6A /* XADebugMacros.h in Headers */,
+				CAEC77EC5BAA28E714B767FC1E67B899 /* XAExtObjcMetamacros.h in Headers */,
+				DA062471FA442E0CEB947C3F725B6946 /* XAFoundation.h in Headers */,
+				104E7A14E68C440606DFEF3B1D8475AB /* XAObjcMetaprogramming.h in Headers */,
+				5E3CEB75DA4AE2FC0C607DECF12A0E32 /* XAspect.h in Headers */,
+				7C7F415930E368796C6E3982BF62AD14 /* XAWeaveHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46BB640F282FCB99A9C42960B7F10C6E /* XAspect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3082AFA2282D0C494D1609B1F146FD72 /* Build configuration list for PBXNativeTarget "XAspect" */;
+			buildPhases = (
+				36F3752136DF63ACF1D6948D5ACF5C44 /* Headers */,
+				F4C5408BB080826FABB4E80886F8CE13 /* Sources */,
+				B8B8C70BE1701E74414B7FC58C27BB4C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XAspect;
+			productName = XAspect;
+			productReference = 2658EDB7F574FA15886307DBA6F41D15 /* libXAspect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		72F9D910DA215D6F82A1570CC48AF6D0 /* Pods-iOSRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE91BC204138A91AF6C04230B18C7C7D /* Build configuration list for PBXNativeTarget "Pods-iOSRouter" */;
+			buildPhases = (
+				351790E7CE3766FB0692DB62650C6D75 /* Headers */,
+				937F61EF0904A0B72D9F746C897F98FA /* Sources */,
+				B09272A47B422C5D5F6EB68ABD3D0F41 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62460CDEEA09074A837B380BE768A5B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSRouter";
+			productName = "Pods-iOSRouter";
+			productReference = BAB31A92DE91CBFF795D01F29604A9E1 /* libPods-iOSRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5765C2F06DB2E5E01F5B982EBF4C7BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F9D910DA215D6F82A1570CC48AF6D0 /* Pods-iOSRouter */,
+				46BB640F282FCB99A9C42960B7F10C6E /* XAspect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937F61EF0904A0B72D9F746C897F98FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2D85F95DCBBC9BCD3BEE81936D6AD4 /* Pods-iOSRouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C5408BB080826FABB4E80886F8CE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04B4529CEAF02010F0AFB130464583C /* XACExtensions.c in Sources */,
+				05B92704C665F95AAB08FCA1CF826E06 /* XACrystallization.cpp in Sources */,
+				845B69EFA08F9CC85BA87708D9104063 /* XAspect-dummy.m in Sources */,
+				4B36AF82868769D37B584A5C90F6A91A /* XAWeaveHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62460CDEEA09074A837B380BE768A5B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XAspect;
+			target = 46BB640F282FCB99A9C42960B7F10C6E /* XAspect */;
+			targetProxy = E0D53A0155DE1A69858E7EDA65296F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10A10CC8F576A9F376E070D343F371BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D4BC8D0A305224686774F7A4706250 /* XAspect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XAspect;
+				PRODUCT_NAME = XAspect;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFA1E3945ADD034DCE532F25E13D2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BB7F5F2D7417066948E681785869D9 /* Pods-iOSRouter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352C316975B8B19BDD3E6B930D64646D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F499F956312A6EA8CEBF71E9136A9F82 /* Pods-iOSRouter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB0942A3BAAA8A336073B874D4FADAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D4BC8D0A305224686774F7A4706250 /* XAspect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XAspect;
+				PRODUCT_NAME = XAspect;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3082AFA2282D0C494D1609B1F146FD72 /* Build configuration list for PBXNativeTarget "XAspect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB0942A3BAAA8A336073B874D4FADAE /* Debug */,
+				10A10CC8F576A9F376E070D343F371BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE91BC204138A91AF6C04230B18C7C7D /* Build configuration list for PBXNativeTarget "Pods-iOSRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352C316975B8B19BDD3E6B930D64646D /* Debug */,
+				1EFA1E3945ADD034DCE532F25E13D2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
