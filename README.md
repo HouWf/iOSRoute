@@ -8,52 +8,40 @@ iOS路由跳转，通过url跳转到指定页面。支持push、present。
 
 使用方式：引入头文件 --- 配置路由地址 --- 设置初始化页面 --- AppDelegate调用初始化 --- 触发页面跳转 --- 获取路由传输params数据
 
-###  step 1：
+###  step 1：\<br /\>
 
         引入头文件：
         #import "Router.h"
         #import "AppRoutorURL.h"
 
 
-### step 2：
+### step 2：\<br /\>
 
 AppRoutorURL.h配置路由地址
 
-#define APP_ROUTOR_BUSINESSSETTINGS     ROUTER(@"consumer/settings")
+        #define APP_ROUTOR_BUSINESSSETTINGS     ROUTER(@"consumer/settings")
 
-
-step 3:
-
+### step 3:\<br /\>
 
 AppRoutorConfig.m通过initial初始化指定Controller。
 
+        + (void)initial{\n
+            // 通过类名初始化
+            [Router reg:APP_ROUTOR_BUSINESSSETTINGS clazzString:@"RouterViewController"];
+            // 通过class初始化
+            //      [Router reg:APP_ROUTOR_BUSINESSSETTINGS clazz:[RouterViewController class]];
+        }
 
-+ (void)initial{\n
-    // 通过类名初始化
-    
-    [Router reg:APP_ROUTOR_BUSINESSSETTINGS clazzString:@"RouterViewController"];
-    
-}
+### step 4：\<br /\>
 
+AppDelegate.m中初始化路由和路由跳转Controller\<br /\>
 
-// 通过class初始化
+// 初始化router\<br /\>
 
+        [Router initial:[WebViewController class]];
+// 初始化路由页面\<br /\>
 
-// [Router reg:APP_ROUTOR_BUSINESSSETTINGS clazz:[RouterViewController class]];
-
-
-
-step 4：
-
-AppDelegate.m中初始化路由和路由跳转Controller
-
-// 初始化router
-
-[Router initial:[WebViewController class]];
-
-// 初始化路由页面
-
-[AppRoutorConfig initial];
+        [AppRoutorConfig initial];
 
 
 step 5：
