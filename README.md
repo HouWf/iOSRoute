@@ -1,20 +1,21 @@
+iOSRouter路由介绍
+===================================  
 
 iOS路由跳转，通过url跳转到指定页面。支持push、present。
+-----------------------------------  
 
 路由地址对应有注册路由地址的Controller会直接进行跳转，否则会跳转到WKWebviwe界面加载URL。
 
 使用方式：引入头文件 --- 配置路由地址 --- 设置初始化页面 --- AppDelegate调用初始化 --- 触发页面跳转 --- 获取路由传输params数据
 
-step 1：
+###  step 1：
 
-引入头文件：
-
-#import "Router.h"
-
-#import "AppRoutorURL.h"
+        引入头文件：
+        #import "Router.h"
+        #import "AppRoutorURL.h"
 
 
-step 2：
+### step 2：
 
 AppRoutorURL.h配置路由地址
 
@@ -106,7 +107,6 @@ NSString *routerId = [State get:self key:@"routerId"];
 
 数据单向传输，未实现数据回传。
 
-=======
 引入头文件：
 #import "Router.h"
 #import "AppRoutorURL.h"
