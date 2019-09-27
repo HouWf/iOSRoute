@@ -81,12 +81,12 @@ AppDelegate.m中初始化路由和路由跳转Controller
 
 ### step 6:
 
-路由页接收指定数据：
+// 路由页接收指定数据：
 
         NSString *routerId = [State get:self key:@"routerId"];
 
 至此路由跳转指定页已完成。
 
-不足：<\br  />
-跳转方式单一，可扩展性高。
-数据单向传输，未实现数据回传。
+不足：
+> 跳转方式单一，可扩展性高。
+> 数据单向传输，未实现数据回传。
